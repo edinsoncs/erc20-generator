@@ -11,7 +11,7 @@ import "@vittominacori/erc20-token/contracts/ERC20Base.sol";
  */
 contract BaseToken is ERC20Base {
 
-  string private constant _GENERATOR = "https://vittominacori.github.io/erc20-generator";
+  string private constant _GENERATOR = "SUNI TEAM";
   string private constant _VERSION = "v3.2.0";
 
   constructor (
@@ -27,7 +27,7 @@ contract BaseToken is ERC20Base {
   /**
    * @dev Returns the token generator tool.
    */
-  function generator() public pure returns (string memory) {
+  function admin() public pure returns (string memory) {
     return _GENERATOR;
   }
 
