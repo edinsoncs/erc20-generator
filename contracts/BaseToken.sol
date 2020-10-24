@@ -5,13 +5,13 @@ pragma solidity ^0.7.1;
 import "@vittominacori/erc20-token/contracts/ERC20Base.sol";
 
 /**
- * @title BaseToken
- * @author Vittorio Minacori (https://github.com/vittominacori)
- * @dev Implementation of the BaseToken
+ * @title SuniToken
+ * @author Edinsoncs (https://github.com/ockang)
+ * @dev Implementation of the SuniToken
  */
 contract BaseToken is ERC20Base {
 
-  string private constant _GENERATOR = "SUNI TEAM";
+  string private constant _GENERATOR = "SUNI";
   string private constant _VERSION = "v3.2.0";
 
   constructor (
